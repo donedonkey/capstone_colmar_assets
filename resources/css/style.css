@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(../fonts/avenir_ff/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "Avenir Black";
+    src: url(../fonts/avenir_ff/AvenirLTStd-Black.otf)
+}
+
+body {
+    font-family: Avenir;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-left: 24px;
+    float: left;
+}
+
+#logo img {
+    vertical-align: middle;
+    height: 40px;
+}
+
+#logo h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0;
+    font-family: "Avenir Black";
+    font-size: 20px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+h1#colmar {
+    color: darkslategray;
+    padding-right: 2px;
+}
+
+#academy {
+    color: gray;
+}
+
+nav {
+    float: right;
+    vertical-align: middle;
+    margin-right: 24px;
+}
+
+ul {
+    margin: 0;
+    vertical-align: middle;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 16px;
+    padding: 0;
+}
+
+ul li a {
+    color: darkslategray;
+}
+
+.mobile {
+    display: none;
+}
+
+
