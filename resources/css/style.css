@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2 {
+    font-family: "Avenir Black";
+}
+
 header {
     width: 100%;
     height: 64px;
@@ -35,7 +40,7 @@ header {
     height: 40px;
 }
 
-#logo h1 {
+#logo p {
     text-transform: uppercase;
     display: inline-block;
     padding: 0;
@@ -45,7 +50,7 @@ header {
     vertical-align: middle;
 }
 
-h1#colmar {
+p#colmar {
     color: darkslategray;
     padding-right: 2px;
 }
@@ -78,5 +83,37 @@ ul li a {
 .mobile {
     display: none;
 }
+
+#start {
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+#banner {
+    width: 60%;
+    margin: 32px 24px;
+    flex-shrink: 2;
+}
+
+#learn {
+    display: inline-block;
+    width: 30%;
+    color: darkslategray;
+    flex-shrink: 1;
+}
+
+#learn h3 {
+    margin-bottom: 30px;
+}
+
+#start_here {
+    color: white;
+    background-color: darkslategray;
+    padding: 8px 50px;
+    margin-top: 20px;
+}
+
 
 
