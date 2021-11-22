@@ -99,7 +99,7 @@ ul li a {
 
 #learn {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     color: darkslategray;
     flex-shrink: 1;
 }
@@ -116,4 +116,45 @@ ul li a {
 }
 
 
+#information {
+    display: flex;
+    width: 100%;
+}
+
+#information_main {
+    width: 60%;
+    margin: 32px 24px;
+    flex-shrink: 2;
+}
+
+#information_main img {
+    width: 100%;
+}
+
+#features {
+    width: 40%;
+    padding: 0;
+    margin-top: 32px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.feature img {
+    max-width: 40%;
+    height: 40%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.feature h4,
+.feature p {
+    margin: 5px;
+}
+
+.feature p {
+    font-size: 12px;
+}
 
