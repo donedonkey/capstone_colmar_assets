@@ -75,23 +75,19 @@ nav {
     margin-right: 24px;
 }
 
-ul {
+.desktop ul {
     margin: 0;
     vertical-align: middle;
 }
 
-ul li {
+.desktop ul li {
     display: inline-block;
     margin-left: 16px;
     padding: 0;
 }
 
-ul li a {
+.desktop ul li a {
     color: darkslategray;
-}
-
-.mobile {
-    display: none;
 }
 
 #start {
@@ -283,3 +279,39 @@ footer {
     margin: 16px 24px;
 }
 
+
+
+@media only screen and (min-width: 689px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    .desktop {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        height: 64px;
+        padding: 0;
+        margin: 0 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav a {
+        height: 30px;
+    }
+
+    #mobile_logo {
+        height: 40px;
+    }
+
+    nav a img {
+        height: 100%;
+    }
+
+}
