@@ -90,38 +90,6 @@ nav {
     color: darkslategray;
 }
 
-#start {
-    width: 100%;
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
-}
-
-#banner {
-    width: 60%;
-    margin: 32px 24px;
-    flex-shrink: 2;
-}
-
-#learn {
-    display: inline-block;
-    width: 40%;
-    color: darkslategray;
-    flex-shrink: 1;
-}
-
-#learn h3 {
-    margin-bottom: 30px;
-}
-
-#start_here {
-    color: white;
-    background-color: darkslategray;
-    padding: 8px 50px;
-    margin-top: 20px;
-}
-
-
 #information {
     display: flex;
     width: 100%;
@@ -136,35 +104,6 @@ nav {
 #information_main img {
     width: 100%;
 }
-
-#features {
-    width: 40%;
-    padding: 0;
-    margin-top: 32px;
-    flex-shrink: 1;
-}
-
-.feature {
-    display: flex;
-    align-items: center;
-}
-
-.feature img {
-    max-width: 40%;
-    height: auto;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.feature h4,
-.feature p {
-    margin: 5px;
-}
-
-.feature h4 {
-    font-size: 20px;
-}
-
 
 #courses {
     width: 100%;
@@ -211,66 +150,6 @@ nav {
     margin: 0;
 }
 
-
-#thesis h1 {
-    text-align: center;
-    padding: 32px 0;
-    margin: 0;
-}
-
-#thesis_container {
-    display: flex;
-    padding-bottom: 32px;
-}
-
-#thesis_main {
-    width: 60%;
-    margin: 0 24px;
-    flex-shrink: 2;
-}
-
-#thesis_main video {
-    width: 100%;
-}
-
-#thesis_main h4 {
-    font-size: 20px;
-    margin: 0;
-    padding-top: 24px;
-}
-
-#thesis_main p {
-    margin: 0;
-    padding-top: 8px;
-}
-
-#thesis_other {
-    width: 40%;
-    padding: 0;
-    flex-shrink: 1;
-}
-
-.thesis_button {
-    display: flex;
-    align-items: center;
-}
-
-.thesis_button img {
-    max-width: 40%;
-    height: auto;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.thesis_content h4,
-.thesis_content p {
-    margin: 5px;
-}
-
-.thesis_content h4 {
-    font-size: 20px;
-}
-
 footer {
     padding-bottom: 16px;
 }
@@ -284,6 +163,124 @@ footer {
 @media only screen and (min-width: 689px) {
     .mobile {
         display: none;
+    }
+
+    #start {
+        width: 100%;
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+    }
+    
+    #banner {
+        width: 60%;
+        margin: 32px 24px;
+        flex-shrink: 2;
+    }
+
+    #learn {
+        display: inline-block;
+        width: 40%;
+        color: darkslategray;
+        flex-shrink: 1;
+    }
+    
+    #learn h3 {
+        margin-bottom: 30px;
+    }
+    
+    #start_here {
+        color: white;
+        background-color: darkslategray;
+        padding: 8px 50px;
+        margin-top: 20px;
+    }
+
+    #features {
+        width: 40%;
+        padding: 0;
+        margin-top: 32px;
+        flex-shrink: 1;
+    }
+    
+    .feature {
+        display: flex;
+        align-items: center;
+    }
+    
+    .feature img {
+        max-width: 40%;
+        height: auto;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .feature h4,
+    .feature p {
+        margin: 5px;
+    }
+    
+    .feature h4 {
+        font-size: 20px;
+    }
+
+    #thesis h1 {
+        text-align: center;
+        padding: 32px 0;
+        margin: 0;
+    }
+    
+    #thesis_container {
+        display: flex;
+        padding-bottom: 32px;
+    }
+    
+    #thesis_main {
+        width: 60%;
+        margin: 0 24px;
+        flex-shrink: 2;
+    }
+    
+    #thesis_main video {
+        width: 100%;
+    }
+    
+    #thesis_main h4 {
+        font-size: 20px;
+        margin: 0;
+        padding-top: 24px;
+    }
+    
+    #thesis_main p {
+        margin: 0;
+        padding-top: 8px;
+    }
+    
+    #thesis_other {
+        width: 40%;
+        padding: 0;
+        flex-shrink: 1;
+    }
+    
+    .thesis_button {
+        display: flex;
+        align-items: center;
+    }
+    
+    .thesis_button img {
+        max-width: 40%;
+        height: auto;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .thesis_content h4,
+    .thesis_content p {
+        margin: 5px;
+    }
+    
+    .thesis_content h4 {
+        font-size: 20px;
     }
 }
 
@@ -312,6 +309,86 @@ footer {
 
     nav a img {
         height: 100%;
+    }
+
+    #start {
+        width: 100%;
+        background-color: lightgray;
+    }
+
+    #banner {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #learn {
+        width: 100%;
+        color: darkslategray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #learn h1 {
+        margin: 32px 16px;
+    }
+    #learn h3 {
+        margin: 0 16px 24px;
+    }
+    
+    #start_here {
+        color: white;
+        background-color: darkslategray;
+        padding: 8px 50px;
+        margin: 0 16px 32px;
+    }    
+
+    .feature {
+        margin: 16px 16px 48px;
+    }
+
+    .feature img {
+        width: 100%;
+    }
+
+    .feature h4 {
+        font-size: 20px;
+    }
+
+    .feature h4,
+    .feature p,
+    .feature a {
+        margin: 8px 16px;
+    }
+   
+    #courses_mobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    #courses_mobile h1 {
+        text-align: center;
+        margin: 0 0 16px;
+    }
+
+    .course_button {
+        padding: 16px;
+        background-color: lightgray;
+        margin: 0 16px 8px;
+        color: black;
+        font-size: 20px;
+    }
+
+    #thesis h1 {
+        text-align: center;
+        margin: 32px 0 16px;
+        padding: 0;
+    }
+
+    #thesis_main video {
+        width: 100%;
+        margin-bottom: 24px;
     }
 
 }
