@@ -28,6 +28,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+main,
+footer {
+    position: relative;
+    top: 64px;
 }
 
 #logo {
@@ -135,6 +145,7 @@ ul li a {
     width: 40%;
     padding: 0;
     margin-top: 32px;
+    flex-shrink: 1;
 }
 
 .feature {
@@ -144,7 +155,7 @@ ul li a {
 
 .feature img {
     max-width: 40%;
-    height: 40%;
+    height: auto;
     margin-right: 10px;
     margin-bottom: 10px;
 }
@@ -154,7 +165,121 @@ ul li a {
     margin: 5px;
 }
 
-.feature p {
-    font-size: 12px;
+.feature h4 {
+    font-size: 20px;
+}
+
+
+#courses {
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#courses h1 {
+    margin: 0;
+    padding: 32px 0;
+}
+
+.row {
+    margin: 0 72px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course {
+    background-color: white;
+    width: 32%;
+    text-align: left;
+    padding-bottom: 24px;
+    color: black;
+}
+
+.course img {
+    width: 100%;
+}
+
+.course h4 {
+    font-size: 20px;
+    padding-left: 16px;
+    padding-top: 16px;
+    margin: 0;
+    top: 0;
+}
+
+.course p {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    margin: 0;
+}
+
+
+#thesis h1 {
+    text-align: center;
+    padding: 32px 0;
+    margin: 0;
+}
+
+#thesis_container {
+    display: flex;
+    padding-bottom: 32px;
+}
+
+#thesis_main {
+    width: 60%;
+    margin: 0 24px;
+    flex-shrink: 2;
+}
+
+#thesis_main video {
+    width: 100%;
+}
+
+#thesis_main h4 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 24px;
+}
+
+#thesis_main p {
+    margin: 0;
+    padding-top: 8px;
+}
+
+#thesis_other {
+    width: 40%;
+    padding: 0;
+    flex-shrink: 1;
+}
+
+.thesis_button {
+    display: flex;
+    align-items: center;
+}
+
+.thesis_button img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.thesis_content h4,
+.thesis_content p {
+    margin: 5px;
+}
+
+.thesis_content h4 {
+    font-size: 20px;
+}
+
+footer {
+    padding-bottom: 16px;
+}
+
+#copyright {
+    margin: 16px 24px;
 }
 

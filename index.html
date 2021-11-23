@@ -50,7 +50,7 @@
                         <div class="feature_content">
                             <h4 class="feature_heading">Orientation date</h4>
                             <p class="feature_comment">Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                            <a class="read_more" href="#">Read More</a>
+                            <p><a class="read_more" href="#">Read More</a></p>
                         </div>
                     </div>
                     <div class="feature">
@@ -58,7 +58,7 @@
                         <div class="feature_content">
                             <h4 class="feature_heading">Our campus</h4>
                             <p class="feature_comment">Find which campus is close by you</p>
-                            <a class="read_more" href="#">Read More</a>
+                            <p><a class="read_more" href="#">Read More</a></p>
                         </div>
                     </div>
                     <div class="feature">
@@ -66,7 +66,7 @@
                         <div class="feature_content">
                             <h4 class="feature_heading">Our guest lecture</h4>
                             <p class="feature_comment">Join a keynote with Oliver Sacks about music in medical treatment</p>
-                            <a class="read_more" href="#">Read More</a>
+                            <p><a class="read_more" href="#">Read More</a></p>
                         </div>
                     </div>    
                 </div>
@@ -91,26 +91,26 @@
                     <a class="read_more" href="#">Read More</a>
                 </div>
             </div>    
-            <div class="desktop">
+            <div id="courses" class="desktop">
                 <h1>Start Learning</h1>
                 <div class="row" id="row1">
                     <a href="#" id="software" class="course">
                         <img src="resources/images/course-software.jpg">
                         <h4>Software Engineering</h4>
                         <p>COURSES</p>
-                        <p>Web Development, Mobile Development, iOT, APIs</p>
+                        <p class="course_examples">Web Development, Mobile Development, iOT, APIs</p>
                     </a>
                     <a href="#" id="computer_art" class="course">
                         <img src="resources/images/course-computer-art.jpg">
                         <h4>Computer Art</h4>
                         <p>COURSES</p>
-                        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                        <p class="course_examples">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
                     </a>
-                    <a href="#"v id="design" class="course">
+                    <a href="#" id="design" class="course">
                         <img src="resources/images/course-design.jpg">
                         <h4>Design</h4>
                         <p>COURSES</p>
-                        <p>User Experience Design, User Research, Visual Design</p>
+                        <p class="course_examples">User Experience Design, User Research, Visual Design</p>
                     </a>
                 </div>
                 <div class="row" id="row2">
@@ -118,19 +118,19 @@
                         <img src="resources/images/course-data.jpg">
                         <h4>Data</h4>
                         <p>COURSES</p>
-                        <p>Data Science, Big Data, SQL, Data Visualization</p>
+                        <p class="course_examples">Data Science, Big Data, SQL, Data Visualization</p>
                     </a>
                     <a href="#" id="business" class="course">
                         <img src="resources/images/course-business.jpg">
                         <h4>Business</h4>
                         <p>COURSES</p>
-                        <p>Product Development, Business Development, Startup</p>
+                        <p class="course_examples">Product Development, Business Development, Startup</p>
                     </a>
                     <a href="#" id="marketing" class="course">
-                        <img src="resources/images/course-design.jpg">
+                        <img src="resources/images/course-marketing.jpg">
                         <h4>Marketing</h4>
                         <p>COURSES</p>
-                        <p>Analytics, Content Marketing, Mobile Marketing</p>
+                        <p class="course_examples">Analytics, Content Marketing, Mobile Marketing</p>
                     </a>
                 </div>
             </div>
@@ -143,25 +143,31 @@
                 <a class="course_button" href="#">Business</a>
                 <a class="course_button" href="#">Marketing</a>
             </div>
-            <div id="thesis_section">
+            <div id="thesis">
                 <h1>Thesis exhibits</h1>
-                <div id="thesis_main">
-                    <video autoplay muted loop alt="Your browser does not support this video.">
-                        <source src="resources/videos/thesis.mp4" type="video/mp4">
-                    </video>
-                    <h4 class="desktop">Reimagine urban</h4>
-                    <p class="dekstop" class="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristque ligula."</p>
-                </div>
-                <div id="thesis_other" class="desktop">
-                    <div class="thesis_button">
-                        <img src="resources/images/thesis-fisma.jpg">
-                        <h4>Fisma: Design and Prototype</h4>
-                        <p>Designer showcase of new prototype product</p>
+                <div id="thesis_container">
+                    <div id="thesis_main">
+                        <video autoplay muted loop alt="Your browser does not support this video.">
+                            <source src="resources/videos/thesis.mp4" type="video/mp4">
+                        </video>
+                        <h4 class="desktop">Reimagine urban</h4>
+                        <p class="dekstop" class="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristque ligula."</p>
                     </div>
-                    <div class="thesis_button">
-                        <img src="resources/images/thesis-now-and-then.jpg">
-                        <h4>Now and Then</h4>
-                        <p>Research study about New York</p>
+                    <div id="thesis_other" class="desktop">
+                        <div class="thesis_button">
+                            <img src="resources/images/thesis-fisma.jpg">
+                            <div class="thesis_content">
+                                <h4>Fisma: Design and Prototype</h4>
+                                <p>Designer showcase of new prototype product</p>
+                            </div>
+                        </div>
+                        <div class="thesis_button">
+                            <img src="resources/images/thesis-now-and-then.jpg">
+                            <div class="thesis_content">
+                                <h4>Now and Then</h4>
+                                <p>Research study about New York</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
